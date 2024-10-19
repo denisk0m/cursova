@@ -114,6 +114,19 @@
      <string>Записати в файл</string>
     </property>
    </widget>
+   <widget class="QPushButton" name="btn_addNode">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>110</y>
+      <width>83</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Додати</string>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">

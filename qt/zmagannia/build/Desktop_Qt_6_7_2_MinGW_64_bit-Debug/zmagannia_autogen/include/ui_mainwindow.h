@@ -32,6 +32,7 @@ public:
     QRadioButton *radbut_compareWeight;
     QRadioButton *radbtn_compareJump;
     QPushButton *btn_writeToFile;
+    QPushButton *btn_addNode;
     QMenuBar *menubar;
     QStatusBar *statusbar;
 
@@ -72,6 +73,9 @@ public:
         btn_writeToFile = new QPushButton(centralwidget);
         btn_writeToFile->setObjectName("btn_writeToFile");
         btn_writeToFile->setGeometry(QRect(70, 180, 171, 29));
+        btn_addNode = new QPushButton(centralwidget);
+        btn_addNode->setObjectName("btn_addNode");
+        btn_addNode->setGeometry(QRect(420, 110, 83, 29));
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName("menubar");
@@ -104,6 +108,7 @@ public:
         radbut_compareWeight->setText(QCoreApplication::translate("MainWindow", "\320\262\320\260\320\263\320\260(\320\267\321\200\320\276\321\201\321\202\320\260\320\275\320\275\321\217)", nullptr));
         radbtn_compareJump->setText(QCoreApplication::translate("MainWindow", "\320\241\321\202\321\200\320\270\320\261\320\276\320\272(\321\201\320\277\320\260\320\264\320\260\320\275\320\275\321\217)", nullptr));
         btn_writeToFile->setText(QCoreApplication::translate("MainWindow", "\320\227\320\260\320\277\320\270\321\201\320\260\321\202\320\270 \320\262 \321\204\320\260\320\271\320\273", nullptr));
+        btn_addNode->setText(QCoreApplication::translate("MainWindow", "\320\224\320\276\320\264\320\260\321\202\320\270", nullptr));
     } // retranslateUi
 
 };

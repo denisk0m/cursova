@@ -1,5 +1,7 @@
 zmagannia_autogen/timestamp: \
 	C:/Users/denis/nulp/cursova/qt/zmagannia/CMakeLists.txt \
+	C:/Users/denis/nulp/cursova/qt/zmagannia/addnode.cpp \
+	C:/Users/denis/nulp/cursova/qt/zmagannia/addnode.h \
 	C:/Users/denis/nulp/cursova/qt/zmagannia/athlete.cpp \
 	C:/Users/denis/nulp/cursova/qt/zmagannia/athlete.h \
 	C:/Users/denis/nulp/cursova/qt/zmagannia/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc/package-manager/auto-setup.cmake \
@@ -154,7 +156,9 @@ zmagannia_autogen/timestamp: \
 	C:/Users/denis/programs/qt1/6.7.2/mingw_64/include/QtGui/qtransform.h \
 	C:/Users/denis/programs/qt1/6.7.2/mingw_64/include/QtGui/qwindowdefs.h \
 	C:/Users/denis/programs/qt1/6.7.2/mingw_64/include/QtGui/qwindowdefs_win.h \
+	C:/Users/denis/programs/qt1/6.7.2/mingw_64/include/QtWidgets/QDialog \
 	C:/Users/denis/programs/qt1/6.7.2/mingw_64/include/QtWidgets/QMainWindow \
+	C:/Users/denis/programs/qt1/6.7.2/mingw_64/include/QtWidgets/qdialog.h \
 	C:/Users/denis/programs/qt1/6.7.2/mingw_64/include/QtWidgets/qmainwindow.h \
 	C:/Users/denis/programs/qt1/6.7.2/mingw_64/include/QtWidgets/qsizepolicy.h \
 	C:/Users/denis/programs/qt1/6.7.2/mingw_64/include/QtWidgets/qtabwidget.h \
@@ -528,5 +532,6 @@ zmagannia_autogen/timestamp: \
 	C:/Users/denis/programs/qt1/Tools/mingw1120_64/x86_64-w64-mingw32/include/time.h \
 	C:/Users/denis/programs/qt1/Tools/mingw1120_64/x86_64-w64-mingw32/include/vadefs.h \
 	C:/Users/denis/programs/qt1/Tools/mingw1120_64/x86_64-w64-mingw32/include/wchar.h \
+	C:/Users/denis/nulp/cursova/qt/zmagannia/addnode.ui \
 	C:/Users/denis/nulp/cursova/qt/zmagannia/mainwindow.ui \
 	C:/Users/denis/programs/qt1/Tools/CMake_64/bin/cmake.exe

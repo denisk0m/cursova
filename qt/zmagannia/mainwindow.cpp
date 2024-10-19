@@ -6,6 +6,7 @@
 #include "quickSort.h"
 #include <functional>
 
+
 int Athlete::staticIdOfNewElem = 0;
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -68,6 +69,10 @@ void MainWindow::writeDataToFile(const QVector<Athlete>& athletes, const QString
 
     file.close();
 }
+bool MainWindow::appendAthletes(Athlete athlete){
+    array.append(athlete);
+    return true;
+};
 bool MainWindow::updateTableAthletes() {
     ui->table_athletesInfo->setRowCount(0);
     int currentRowCount = ui->table_athletesInfo->rowCount();  // Get the current number of rows
@@ -128,5 +133,12 @@ void MainWindow::on_btn_sort_clicked()
 void MainWindow::on_btn_writeToFile_clicked()
 {
     MainWindow::writeDataToFile(array, "C:/Users/denis/nulp/cursova/qt/zmagannia/db_towrite.txt");
+}
+
+
+void MainWindow::on_btn_addNode_clicked()
+{
+    AddNode dialog(this);
+    dialog.exec();
 }
 

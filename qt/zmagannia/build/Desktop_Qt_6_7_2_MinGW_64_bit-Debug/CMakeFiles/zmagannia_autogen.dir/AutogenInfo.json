@@ -257,6 +257,12 @@
 	"HEADERS" : 
 	[
 		[
+			"C:/Users/denis/nulp/cursova/qt/zmagannia/addnode.h",
+			"MU",
+			"EWIEGA46WW/moc_addnode.cpp",
+			null
+		],
+		[
 			"C:/Users/denis/nulp/cursova/qt/zmagannia/athlete.h",
 			"MU",
 			"EWIEGA46WW/moc_athlete.cpp",
@@ -346,6 +352,7 @@
 	"SETTINGS_FILE" : "C:/Users/denis/nulp/cursova/qt/zmagannia/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/zmagannia_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[ "C:/Users/denis/nulp/cursova/qt/zmagannia/addnode.cpp", "MU", null ],
 		[ "C:/Users/denis/nulp/cursova/qt/zmagannia/athlete.cpp", "MU", null ],
 		[ "C:/Users/denis/nulp/cursova/qt/zmagannia/main.cpp", "MU", null ],
 		[ "C:/Users/denis/nulp/cursova/qt/zmagannia/mainwindow.cpp", "MU", null ]

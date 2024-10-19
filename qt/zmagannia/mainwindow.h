@@ -3,6 +3,7 @@
 
 #include <QMainWindow>
 #include "athlete.h"
+#include "addnode.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
@@ -20,12 +21,15 @@ public:
     bool readAthletesFromFile(const QString& fileName, QVector<Athlete>& athletes);
     void writeDataToFile(const QVector<Athlete>& athletes, const QString& fileName);
     bool updateTableAthletes();
+    bool appendAthletes(Athlete athlete);
 private slots:
     void on_btn_fillInfoFromFile_clicked();
 
     void on_btn_sort_clicked();
 
     void on_btn_writeToFile_clicked();
+
+    void on_btn_addNode_clicked();
 
 private:
     QVector<Athlete> array;
