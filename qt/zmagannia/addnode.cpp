@@ -1,8 +1,7 @@
 #include "addnode.h"
 #include "ui_addnode.h"
-#include "mainwindow.h"
 
-AddNode::AddNode(QWidget *parent)
+AddNode::AddNode(QWidget *parent, QVector<Athlete> & athletes)
     : QDialog(parent)
     , ui(new Ui::addNode)
 

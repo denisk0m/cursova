@@ -138,7 +138,7 @@ void MainWindow::on_btn_writeToFile_clicked()
 
 void MainWindow::on_btn_addNode_clicked()
 {
-    AddNode dialog(this);
+    AddNode dialog(this,array);
     dialog.exec();
 }
 
