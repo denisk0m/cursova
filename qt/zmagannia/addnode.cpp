@@ -7,10 +7,6 @@ AddNode::AddNode(QWidget *parent, QVector<Athlete> & athletes)
     , ui(new Ui::addNode),
     arrayToAdd(athletes)
 {
-    qDebug()<<"ptr of athletes in constructor : "<<&athletes;
-    qDebug()<<"ptr addToArray in constructor : "<<&arrayToAdd;
-
-
     ui->setupUi(this);
 }
 
@@ -21,7 +17,6 @@ AddNode::~AddNode()
 
 void AddNode::on_buttonBox_accepted()
 {
-    // qDebug()<<"ptr in func : "<<&arrayToAdd;
     QString name = ui->lineEdit_name->text();
     double jumpHeight = ui->spinBox_jumpHeight->value();
     double runTime = ui->spinBox_runTime->value();

@@ -9,6 +9,8 @@ public:
     static int staticIdOfNewElem;
     Athlete();
     Athlete(QString nameP, float weightP, float jumpHeightP, float runTimeP);
+    Athlete(const Athlete &other);
+
     void setWeight(float value);
     void setJumpHeight(float value);
     void setRunTime(float value);
@@ -18,8 +20,8 @@ public:
     float getRunTime() const;
     QString getName() const;
     int getId() const ;
-    friend QTextStream& operator<<(QTextStream &in, const Athlete &athlete);
-    friend QTextStream& operator>>(QTextStream &out, const Athlete &athlete);
+    friend QTextStream& operator>>(QTextStream &in, Athlete &athlete);
+    friend QTextStream& operator<<(QTextStream &out, const Athlete &athlete);
 private:
     int id;
     QString name;

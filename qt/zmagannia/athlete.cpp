@@ -10,6 +10,16 @@ Athlete::Athlete(QString nameP, float weightP, float jumpHeightP, float runTimeP
     id = staticIdOfNewElem;
     staticIdOfNewElem++;
 };
+
+Athlete::Athlete(const Athlete &other)
+    : id(other.getId()),
+    name(other.name),
+    weight(other.weight),
+    jumpHeight(other.jumpHeight),
+    runTime(other.runTime)
+{
+
+}
 void Athlete::setWeight(float value){weight = value;}
 void Athlete::setJumpHeight(float value){jumpHeight = value;}
 void Athlete::setRunTime(float value){runTime = value;}

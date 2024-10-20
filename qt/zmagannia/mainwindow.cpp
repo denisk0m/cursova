@@ -33,24 +33,10 @@ bool MainWindow::readAthletesFromFile(const QString& fileName, QVector<Athlete>&
 
 
     QTextStream in(&file);
-    while (!in.atEnd()) {
-        QString line = in.readLine();  // Read each line
-
-        // Split the line into components
-        QStringList fields = line.split(',');
-
-        if (fields.size() == 4) {  // Ensure the line has 4 fields: name, weight, jumpHeight, runTime
-            QString name = fields[0].trimmed();
-            double weight = fields[1].toDouble();
-            double jumpHeight = fields[2].toDouble();
-            double runTime = fields[3].toDouble();
-
-            // Add the athlete object to the QVector
-            athletes.append(Athlete(name, weight, jumpHeight, runTime));
-        } else {
-            qDebug()<<"Warning: Invalid line format in file.";
-
-        }
+    while (!in.atEnd()){
+        Athlete athlete;
+        in>>athlete;
+        athletes.append(athlete);
     }
 
     file.close();
@@ -85,7 +71,7 @@ bool MainWindow::updateTableAthletes() {
         ui->table_athletesInfo->insertRow(currentRowCount + i);
 
         // Add athlete's index to the first column
-        QTableWidgetItem *indexItem = new QTableWidgetItem(QString::number(i));
+        QTableWidgetItem *indexItem = new QTableWidgetItem(QString::number(array[i].getId()));
         ui->table_athletesInfo->setItem(currentRowCount + i, 0, indexItem);
 
         // Add athlete's name to the first column
