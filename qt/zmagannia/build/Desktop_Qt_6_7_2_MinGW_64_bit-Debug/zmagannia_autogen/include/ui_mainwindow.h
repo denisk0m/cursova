@@ -40,12 +40,12 @@ public:
     {
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName("MainWindow");
-        MainWindow->resize(800, 600);
+        MainWindow->resize(1036, 600);
         centralwidget = new QWidget(MainWindow);
         centralwidget->setObjectName("centralwidget");
         table_athletesInfo = new QTableWidget(centralwidget);
-        if (table_athletesInfo->columnCount() < 5)
-            table_athletesInfo->setColumnCount(5);
+        if (table_athletesInfo->columnCount() < 6)
+            table_athletesInfo->setColumnCount(6);
         QTableWidgetItem *__qtablewidgetitem = new QTableWidgetItem();
         table_athletesInfo->setHorizontalHeaderItem(0, __qtablewidgetitem);
         QTableWidgetItem *__qtablewidgetitem1 = new QTableWidgetItem();
@@ -56,8 +56,10 @@ public:
         table_athletesInfo->setHorizontalHeaderItem(3, __qtablewidgetitem3);
         QTableWidgetItem *__qtablewidgetitem4 = new QTableWidgetItem();
         table_athletesInfo->setHorizontalHeaderItem(4, __qtablewidgetitem4);
+        QTableWidgetItem *__qtablewidgetitem5 = new QTableWidgetItem();
+        table_athletesInfo->setHorizontalHeaderItem(5, __qtablewidgetitem5);
         table_athletesInfo->setObjectName("table_athletesInfo");
-        table_athletesInfo->setGeometry(QRect(60, 290, 671, 192));
+        table_athletesInfo->setGeometry(QRect(50, 290, 761, 192));
         btn_fillInfoFromFile = new QPushButton(centralwidget);
         btn_fillInfoFromFile->setObjectName("btn_fillInfoFromFile");
         btn_fillInfoFromFile->setGeometry(QRect(70, 140, 171, 29));
@@ -79,7 +81,7 @@ public:
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName("menubar");
-        menubar->setGeometry(QRect(0, 0, 800, 25));
+        menubar->setGeometry(QRect(0, 0, 1036, 25));
         MainWindow->setMenuBar(menubar);
         statusbar = new QStatusBar(MainWindow);
         statusbar->setObjectName("statusbar");
@@ -103,6 +105,8 @@ public:
         ___qtablewidgetitem3->setText(QCoreApplication::translate("MainWindow", "\320\241\321\202\321\200\320\270\320\261\320\276\320\272 \321\203 \320\262\320\270\321\201\320\276\321\202\321\203", nullptr));
         QTableWidgetItem *___qtablewidgetitem4 = table_athletesInfo->horizontalHeaderItem(4);
         ___qtablewidgetitem4->setText(QCoreApplication::translate("MainWindow", "\320\221\321\226\320\263 100\320\274", nullptr));
+        QTableWidgetItem *___qtablewidgetitem5 = table_athletesInfo->horizontalHeaderItem(5);
+        ___qtablewidgetitem5->setText(QCoreApplication::translate("MainWindow", "\320\222\320\270\320\264\320\260\320\273\320\265\320\275\320\275\321\217", nullptr));
         btn_fillInfoFromFile->setText(QCoreApplication::translate("MainWindow", "\320\227\321\207\320\270\321\202\320\260\321\202\320\270 \320\267 \321\204\320\260\320\271\320\273\321\203", nullptr));
         btn_sort->setText(QCoreApplication::translate("MainWindow", "\320\241\320\276\321\200\321\202\321\203\320\262\320\260\321\202\320\270", nullptr));
         radbut_compareWeight->setText(QCoreApplication::translate("MainWindow", "\320\262\320\260\320\263\320\260(\320\267\321\200\320\276\321\201\321\202\320\260\320\275\320\275\321\217)", nullptr));

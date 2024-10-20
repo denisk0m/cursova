@@ -102,6 +102,19 @@ bool MainWindow::updateTableAthletes() {
         // Add athlete's runtime to the fourth column
         QTableWidgetItem *runtimeItem = new QTableWidgetItem(QString::number(athlete.getRunTime()));
         ui->table_athletesInfo->setItem(currentRowCount + i, 4, runtimeItem);
+        // Add athlete's runtime to the fourth column
+        QPushButton *buttonToDelete = new QPushButton("delete");
+
+        connect(buttonToDelete, &QPushButton::clicked, this, [=]() {
+            array.removeAt(i);
+            // Define what happens when the button is clicked
+            int rowToDelete = i;
+            ui->table_athletesInfo->removeRow(rowToDelete);            // Remove the row containing the button
+            updateTableAthletes();
+        });
+
+        ui->table_athletesInfo->setCellWidget(currentRowCount + i, 5, buttonToDelete);
+
     }
 
     return true;

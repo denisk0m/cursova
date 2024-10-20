@@ -1,9 +1,5 @@
-Aiden Murphy,91.1,2.4,11
-Ethan Miller,92.4,2.4,11.3
 Alexander King,90,2.4,11.2
-William Barnes,88.9,2.3,11.8
 Henry Lewis,88.1,2.3,11.4
-Logan Mitchell,86.7,2.3,11.7
 Lucas Parker,89.5,2.3,11.6
 Elijah Collins,85.8,2.2,11.9
 James Walker,84.6,2.2,12

@@ -14,6 +14,7 @@ zmagannia_autogen/timestamp: \
 	C:/Users/denis/nulp/cursova/qt/zmagannia/mainwindow.h \
 	C:/Users/denis/nulp/cursova/qt/zmagannia/quickSort.h \
 	C:/Users/denis/programs/qt1/6.7.2/mingw_64/include/QtCore/QString \
+	C:/Users/denis/programs/qt1/6.7.2/mingw_64/include/QtCore/QVector \
 	C:/Users/denis/programs/qt1/6.7.2/mingw_64/include/QtCore/q20functional.h \
 	C:/Users/denis/programs/qt1/6.7.2/mingw_64/include/QtCore/q20memory.h \
 	C:/Users/denis/programs/qt1/6.7.2/mingw_64/include/QtCore/q20type_traits.h \
@@ -128,6 +129,7 @@ zmagannia_autogen/timestamp: \
 	C:/Users/denis/programs/qt1/6.7.2/mingw_64/include/QtCore/qutf8stringview.h \
 	C:/Users/denis/programs/qt1/6.7.2/mingw_64/include/QtCore/qvariant.h \
 	C:/Users/denis/programs/qt1/6.7.2/mingw_64/include/QtCore/qvarlengtharray.h \
+	C:/Users/denis/programs/qt1/6.7.2/mingw_64/include/QtCore/qvector.h \
 	C:/Users/denis/programs/qt1/6.7.2/mingw_64/include/QtCore/qversiontagging.h \
 	C:/Users/denis/programs/qt1/6.7.2/mingw_64/include/QtCore/qxptype_traits.h \
 	C:/Users/denis/programs/qt1/6.7.2/mingw_64/include/QtCore/qyieldcpu.h \

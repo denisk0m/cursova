@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
+    <width>1036</width>
     <height>600</height>
    </rect>
   </property>
@@ -17,9 +17,9 @@
    <widget class="QTableWidget" name="table_athletesInfo">
     <property name="geometry">
      <rect>
-      <x>60</x>
+      <x>50</x>
       <y>290</y>
-      <width>671</width>
+      <width>761</width>
       <height>192</height>
      </rect>
     </property>
@@ -46,6 +46,11 @@
     <column>
      <property name="text">
       <string>Біг 100м</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Видалення</string>
      </property>
     </column>
    </widget>
@@ -133,7 +138,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>800</width>
+     <width>1036</width>
      <height>25</height>
     </rect>
    </property>
