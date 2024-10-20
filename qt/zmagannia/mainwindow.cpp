@@ -158,7 +158,7 @@ void MainWindow::on_btn_addNode_clicked()
 }
 double MainWindow::findMedioumOfHeightJump() const {
     double sum = 0;
-    for(int i = 0; i < array.size() - 1; i++){
+    for(int i = 0; i < array.size(); i++){
         sum+=array[i].getJumpHeight();
     }
     return sum/array.size();
@@ -178,5 +178,14 @@ void MainWindow::on_btn_groupByJump_clicked()
 {
     groupByJump();
     updateTableAthletes();
+}
+
+
+void MainWindow::on_btn_outputByCriterium_clicked()
+{
+    bool isGreater = ui->radbut_grAver->isChecked() ? true : false;
+
+    TableCriterium windowTable(this, findMedioumOfHeightJump(),isGreater, array);
+    windowTable.exec();
 }
 

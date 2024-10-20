@@ -11,6 +11,7 @@
 
 #include <QtCore/QVariant>
 #include <QtWidgets/QApplication>
+#include <QtWidgets/QButtonGroup>
 #include <QtWidgets/QHeaderView>
 #include <QtWidgets/QMainWindow>
 #include <QtWidgets/QMenuBar>
@@ -34,8 +35,12 @@ public:
     QPushButton *btn_writeToFile;
     QPushButton *btn_addNode;
     QPushButton *btn_groupByJump;
+    QPushButton *btn_outputByCriterium;
+    QRadioButton *radbut_grAver;
+    QRadioButton *radbut_lessAver;
     QMenuBar *menubar;
     QStatusBar *statusbar;
+    QButtonGroup *buttonGroup;
 
     void setupUi(QMainWindow *MainWindow)
     {
@@ -68,9 +73,13 @@ public:
         btn_sort->setObjectName("btn_sort");
         btn_sort->setGeometry(QRect(70, 90, 83, 29));
         radbut_compareWeight = new QRadioButton(centralwidget);
+        buttonGroup = new QButtonGroup(MainWindow);
+        buttonGroup->setObjectName("buttonGroup");
+        buttonGroup->addButton(radbut_compareWeight);
         radbut_compareWeight->setObjectName("radbut_compareWeight");
         radbut_compareWeight->setGeometry(QRect(80, 250, 161, 26));
         radbtn_compareJump = new QRadioButton(centralwidget);
+        buttonGroup->addButton(radbtn_compareJump);
         radbtn_compareJump->setObjectName("radbtn_compareJump");
         radbtn_compareJump->setGeometry(QRect(80, 220, 171, 26));
         btn_writeToFile = new QPushButton(centralwidget);
@@ -82,6 +91,16 @@ public:
         btn_groupByJump = new QPushButton(centralwidget);
         btn_groupByJump->setObjectName("btn_groupByJump");
         btn_groupByJump->setGeometry(QRect(410, 130, 201, 41));
+        btn_outputByCriterium = new QPushButton(centralwidget);
+        btn_outputByCriterium->setObjectName("btn_outputByCriterium");
+        btn_outputByCriterium->setGeometry(QRect(410, 190, 83, 29));
+        radbut_grAver = new QRadioButton(centralwidget);
+        radbut_grAver->setObjectName("radbut_grAver");
+        radbut_grAver->setGeometry(QRect(410, 230, 161, 26));
+        radbut_grAver->setChecked(true);
+        radbut_lessAver = new QRadioButton(centralwidget);
+        radbut_lessAver->setObjectName("radbut_lessAver");
+        radbut_lessAver->setGeometry(QRect(410, 260, 171, 26));
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName("menubar");
@@ -118,6 +137,9 @@ public:
         btn_writeToFile->setText(QCoreApplication::translate("MainWindow", "\320\227\320\260\320\277\320\270\321\201\320\260\321\202\320\270 \320\262 \321\204\320\260\320\271\320\273", nullptr));
         btn_addNode->setText(QCoreApplication::translate("MainWindow", "\320\224\320\276\320\264\320\260\321\202\320\270", nullptr));
         btn_groupByJump->setText(QCoreApplication::translate("MainWindow", "\320\227\320\263\321\200\321\203\320\277\321\203\320\262\320\260\321\202\320\270 \320\267\320\260 \321\201\321\202\321\200\320\270\320\261\320\272\320\276\320\274", nullptr));
+        btn_outputByCriterium->setText(QCoreApplication::translate("MainWindow", "\320\222\320\270\320\262\320\265\321\201\321\202\320\270", nullptr));
+        radbut_grAver->setText(QCoreApplication::translate("MainWindow", "\320\261\321\226\320\273\321\214\321\210\320\265 \321\201\320\265\321\200\320\265\320\264\320\275\321\214\320\276\320\263\320\276", nullptr));
+        radbut_lessAver->setText(QCoreApplication::translate("MainWindow", "\320\274\320\265\320\275\321\210\320\265 \321\201\320\265\321\200\320\265\320\264\320\275\321\214\320\276\320\263\320\276", nullptr));
     } // retranslateUi
 
 };

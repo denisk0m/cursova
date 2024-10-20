@@ -4,6 +4,7 @@
 #include <QMainWindow>
 #include "athlete.h"
 #include "addnode.h"
+#include "tablecriterium.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
@@ -34,6 +35,8 @@ private slots:
     void on_btn_addNode_clicked();
 
     void on_btn_groupByJump_clicked();
+
+    void on_btn_outputByCriterium_clicked();
 
 private:
     QVector<Athlete> array;

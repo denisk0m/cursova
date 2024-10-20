@@ -13,7 +13,10 @@ zmagannia_autogen/timestamp: \
 	C:/Users/denis/nulp/cursova/qt/zmagannia/mainwindow.cpp \
 	C:/Users/denis/nulp/cursova/qt/zmagannia/mainwindow.h \
 	C:/Users/denis/nulp/cursova/qt/zmagannia/quickSort.h \
+	C:/Users/denis/nulp/cursova/qt/zmagannia/tablecriterium.cpp \
+	C:/Users/denis/nulp/cursova/qt/zmagannia/tablecriterium.h \
 	C:/Users/denis/programs/qt1/6.7.2/mingw_64/include/QtCore/QString \
+	C:/Users/denis/programs/qt1/6.7.2/mingw_64/include/QtCore/QTextStream \
 	C:/Users/denis/programs/qt1/6.7.2/mingw_64/include/QtCore/QVector \
 	C:/Users/denis/programs/qt1/6.7.2/mingw_64/include/QtCore/q20functional.h \
 	C:/Users/denis/programs/qt1/6.7.2/mingw_64/include/QtCore/q20memory.h \
@@ -536,4 +539,5 @@ zmagannia_autogen/timestamp: \
 	C:/Users/denis/programs/qt1/Tools/mingw1120_64/x86_64-w64-mingw32/include/wchar.h \
 	C:/Users/denis/nulp/cursova/qt/zmagannia/addnode.ui \
 	C:/Users/denis/nulp/cursova/qt/zmagannia/mainwindow.ui \
+	C:/Users/denis/nulp/cursova/qt/zmagannia/tablecriterium.ui \
 	C:/Users/denis/programs/qt1/Tools/CMake_64/bin/cmake.exe

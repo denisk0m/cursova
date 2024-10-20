@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Debug-a0b03ed2d9e417cb8674.json",
+					"jsonFile" : "directory-.-Debug-7e80454fb672aa72962e.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -44,7 +44,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "zmagannia::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-zmagannia-Debug-98a5406ed49df756887f.json",
+					"jsonFile" : "target-zmagannia-Debug-03ae07ce205e5ca62b9c.json",
 					"name" : "zmagannia",
 					"projectIndex" : 0
 				},

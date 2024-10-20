@@ -26,6 +26,7 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         athlete.h athlete.cpp
         quickSort.h
         addnode.h addnode.cpp addnode.ui
+        tablecriterium.h tablecriterium.cpp tablecriterium.ui
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET zmagannia APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR

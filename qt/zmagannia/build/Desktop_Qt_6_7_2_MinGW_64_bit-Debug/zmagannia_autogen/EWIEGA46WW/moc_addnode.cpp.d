@@ -2,6 +2,7 @@ C:/Users/denis/nulp/cursova/qt/zmagannia/build/Desktop_Qt_6_7_2_MinGW_64_bit-Deb
   C:/Users/denis/nulp/cursova/qt/zmagannia/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/zmagannia_autogen/moc_predefs.h \
   C:/Users/denis/nulp/cursova/qt/zmagannia/athlete.h \
   C:/Users/denis/programs/qt1/6.7.2/mingw_64/include/QtCore/QString \
+  C:/Users/denis/programs/qt1/6.7.2/mingw_64/include/QtCore/QTextStream \
   C:/Users/denis/programs/qt1/6.7.2/mingw_64/include/QtCore/QVector \
   C:/Users/denis/programs/qt1/6.7.2/mingw_64/include/QtCore/q20functional.h \
   C:/Users/denis/programs/qt1/6.7.2/mingw_64/include/QtCore/q20memory.h \

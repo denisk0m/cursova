@@ -1,7 +1,7 @@
-max,3,2,1
+Bob Johnson,90,2.2,11.9
 Charlie Davis,85,2.1,12
 Daniel Harris,78.3,2,11.5
-Jane Smith,70,1.9,13.2
 Grace Clark,72.4,1.9,12.7
+Jane Smith,70,1.9,13.2
 Alice Brown,65.5,1.8,12.5
 Emily Wilson,60.2,1.7,13.8

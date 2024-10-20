@@ -279,6 +279,12 @@
 			"MU",
 			"EWIEGA46WW/moc_quickSort.cpp",
 			null
+		],
+		[
+			"C:/Users/denis/nulp/cursova/qt/zmagannia/tablecriterium.h",
+			"MU",
+			"EWIEGA46WW/moc_tablecriterium.cpp",
+			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
@@ -355,7 +361,12 @@
 		[ "C:/Users/denis/nulp/cursova/qt/zmagannia/addnode.cpp", "MU", null ],
 		[ "C:/Users/denis/nulp/cursova/qt/zmagannia/athlete.cpp", "MU", null ],
 		[ "C:/Users/denis/nulp/cursova/qt/zmagannia/main.cpp", "MU", null ],
-		[ "C:/Users/denis/nulp/cursova/qt/zmagannia/mainwindow.cpp", "MU", null ]
+		[ "C:/Users/denis/nulp/cursova/qt/zmagannia/mainwindow.cpp", "MU", null ],
+		[
+			"C:/Users/denis/nulp/cursova/qt/zmagannia/tablecriterium.cpp",
+			"MU",
+			null
+		]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],

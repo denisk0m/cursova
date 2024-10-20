@@ -1,8 +1,6 @@
-C:/Users/denis/nulp/cursova/qt/zmagannia/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/zmagannia_autogen/EWIEGA46WW/moc_mainwindow.cpp: C:/Users/denis/nulp/cursova/qt/zmagannia/mainwindow.h \
+C:/Users/denis/nulp/cursova/qt/zmagannia/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/zmagannia_autogen/EWIEGA46WW/moc_tablecriterium.cpp: C:/Users/denis/nulp/cursova/qt/zmagannia/tablecriterium.h \
   C:/Users/denis/nulp/cursova/qt/zmagannia/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/zmagannia_autogen/moc_predefs.h \
-  C:/Users/denis/nulp/cursova/qt/zmagannia/addnode.h \
   C:/Users/denis/nulp/cursova/qt/zmagannia/athlete.h \
-  C:/Users/denis/nulp/cursova/qt/zmagannia/tablecriterium.h \
   C:/Users/denis/programs/qt1/6.7.2/mingw_64/include/QtCore/QString \
   C:/Users/denis/programs/qt1/6.7.2/mingw_64/include/QtCore/QTextStream \
   C:/Users/denis/programs/qt1/6.7.2/mingw_64/include/QtCore/QVector \
@@ -150,11 +148,8 @@ C:/Users/denis/nulp/cursova/qt/zmagannia/build/Desktop_Qt_6_7_2_MinGW_64_bit-Deb
   C:/Users/denis/programs/qt1/6.7.2/mingw_64/include/QtGui/qwindowdefs.h \
   C:/Users/denis/programs/qt1/6.7.2/mingw_64/include/QtGui/qwindowdefs_win.h \
   C:/Users/denis/programs/qt1/6.7.2/mingw_64/include/QtWidgets/QDialog \
-  C:/Users/denis/programs/qt1/6.7.2/mingw_64/include/QtWidgets/QMainWindow \
   C:/Users/denis/programs/qt1/6.7.2/mingw_64/include/QtWidgets/qdialog.h \
-  C:/Users/denis/programs/qt1/6.7.2/mingw_64/include/QtWidgets/qmainwindow.h \
   C:/Users/denis/programs/qt1/6.7.2/mingw_64/include/QtWidgets/qsizepolicy.h \
-  C:/Users/denis/programs/qt1/6.7.2/mingw_64/include/QtWidgets/qtabwidget.h \
   C:/Users/denis/programs/qt1/6.7.2/mingw_64/include/QtWidgets/qtwidgets-config.h \
   C:/Users/denis/programs/qt1/6.7.2/mingw_64/include/QtWidgets/qtwidgetsexports.h \
   C:/Users/denis/programs/qt1/6.7.2/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
