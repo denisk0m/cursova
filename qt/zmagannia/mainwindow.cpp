@@ -7,6 +7,7 @@
 #include <functional>
 
 
+
 int Athlete::staticIdOfNewElem = 0;
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -153,5 +154,29 @@ void MainWindow::on_btn_addNode_clicked()
 {
     AddNode dialog(this,array);
     dialog.exec();
+    updateTableAthletes();
+}
+double MainWindow::findMedioumOfHeightJump() const {
+    double sum = 0;
+    for(int i = 0; i < array.size() - 1; i++){
+        sum+=array[i].getJumpHeight();
+    }
+    return sum/array.size();
+}
+
+bool MainWindow::groupByJump(){
+    //лямбда-компаратор
+
+    std::function<bool(const Athlete &a1,const Athlete &a2)> comparator = [](const Athlete &a1,const Athlete &a2){
+        return a1.getJumpHeight()>a2.getJumpHeight();
+    };
+    std::sort(array.begin(),array.end(),comparator);
+    return 1;
+};
+
+void MainWindow::on_btn_groupByJump_clicked()
+{
+    groupByJump();
+    updateTableAthletes();
 }
 

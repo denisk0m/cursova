@@ -22,6 +22,8 @@ public:
     void writeDataToFile(const QVector<Athlete>& athletes, const QString& fileName);
     bool updateTableAthletes();
     bool appendAthletes(Athlete athlete);
+    double findMedioumOfHeightJump() const;
+    bool groupByJump();
 private slots:
     void on_btn_fillInfoFromFile_clicked();
 
@@ -30,6 +32,8 @@ private slots:
     void on_btn_writeToFile_clicked();
 
     void on_btn_addNode_clicked();
+
+    void on_btn_groupByJump_clicked();
 
 private:
     QVector<Athlete> array;

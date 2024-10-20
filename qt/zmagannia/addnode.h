@@ -22,7 +22,7 @@ private slots:
 
 private:
     Ui::addNode *ui;
-    QVector<Athlete> arrayToAdd;
+    QVector<Athlete> &arrayToAdd;
 };
 
 #endif // ADDNODE_H

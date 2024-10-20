@@ -7,20 +7,16 @@ class Athlete
 public:
     static int staticIdOfNewElem;
     Athlete();
-    Athlete(QString nameP, float weightP, float jumpHeightP, float runTimeP)
-        : name(nameP),weight(weightP),jumpHeight(jumpHeightP),runTime(runTimeP) {
-        id = staticIdOfNewElem;
-        staticIdOfNewElem++;
-    };
-    void setWeight(float value){weight = value;}
-    void setJumpHeight(float value){jumpHeight = value;}
-    void setRunTime(float value){runTime = value;}
-    void setName(QString value){name = value;}
-    float getWeight()const {return weight;}
-    float getJumpHeight()const {return jumpHeight;}
-    float getRunTime() const{return runTime;}
-    QString getName() const {return name;}
-    int getId() const {return id;}
+    Athlete(QString nameP, float weightP, float jumpHeightP, float runTimeP);
+    void setWeight(float value);
+void setJumpHeight(float value);
+    void setRunTime(float value);
+void setName(QString value);
+    float getWeight()const;
+    float getJumpHeight()const;
+    float getRunTime() const;
+    QString getName() const;
+    int getId() const ;
 private:
     int id;
     QString name;
